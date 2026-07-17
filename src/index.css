@@ -1,0 +1,16 @@
+/* Reseteo básico de márgenes y padding para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6ecf2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #042c53;
+}
+
+#root {
+  min-height: 100vh;
+}

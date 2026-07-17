@@ -1,0 +1,112 @@
+.pagina-inicio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #e6ecf2;
+    text-align: center;
+}
+
+.pagina-inicio__titulo {
+    font-size: 2.2rem;
+    color: #042c53;
+    margin-bottom: 10px;
+}
+
+.pagina-inicio__subtitulo {
+    font-size: 1.1rem;
+    color: #5f6b7a;
+    margin-bottom: 30px;
+}
+
+.pagina-inicio__lista {
+    list-style: none;
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pagina-inicio__item {
+    width: 100%;
+}
+
+.pagina-inicio__enlace {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #cbd5e0;
+    border-radius: 10px;
+    padding: 14px 18px;
+    box-shadow: 0 2px 6px rgba(4, 44, 83, 0.08);
+    transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.pagina-inicio__enlace:hover {
+    background-color: #185fa5;
+    border-color: #185fa5;
+    transform: translateX(4px);
+}
+
+.pagina-inicio__numero {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6ecf2;
+    color: #185fa5;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 50%;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.pagina-inicio__enlace:hover .pagina-inicio__numero {
+    background-color: #fff;
+    color: #185fa5;
+}
+
+.pagina-inicio__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.pagina-inicio__nombre-obra {
+    font-weight: 600;
+    color: #042c53;
+    font-size: 1rem;
+    transition: color 0.15s ease;
+}
+
+.pagina-inicio__nombre-autor {
+    font-size: 0.85rem;
+    color: #5f6b7a;
+    transition: color 0.15s ease;
+}
+
+.pagina-inicio__enlace:hover .pagina-inicio__nombre-obra,
+.pagina-inicio__enlace:hover .pagina-inicio__nombre-autor {
+    color: #fff;
+}
+
+.pagina-inicio__flecha {
+    flex-shrink: 0;
+    color: #185fa5;
+    font-size: 1.2rem;
+    transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.pagina-inicio__enlace:hover .pagina-inicio__flecha {
+    color: #fff;
+    transform: translateX(3px);
+}
